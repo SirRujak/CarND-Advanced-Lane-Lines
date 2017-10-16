@@ -19,13 +19,13 @@ The goals / steps of this project are the following:
 
 [//]: # (Image References)
 
-[image1]: ./writeup_images/checkerimage_both.png "Checker Images"
-[image2.1]: ./writeup_images/base_image.png "Base Road Image"
-[image2]: ./writeup_images/base_image_undistorted "Road Transformed"
+[image1]: ./writeup_images/checker_image_both.png "Checker Images"
+[image21]: ./writeup_images/base_image.png "Base Road Image"
+[image2]: ./writeup_images/base_image_undistorted.png "Road Transformed"
 [image3]: ./writeup_images/undistorted_and_thresholded_iamge.png "Binary Example"
 [image4]: ./writeup_images/warped_image.png "Warp Example"
-[image5]: ./writeup_images/bounding_boxes_image "Fit Visual"
-[image5.1]: ./writeup_images/fitted_lines_image.png "Final Fit Lines"
+[image5]: ./writeup_images/bounding_boxes_image.png "Fit Visual"
+[image51]: ./writeup_images/fitted_lines_image.png "Final Fit Lines"
 [image6]: ./writeup_images/final_image.png "Output"
 [video1]: ./project_video_processed.mp4 "Video"
 
@@ -58,6 +58,8 @@ I then used the output `objpoints` and `imgpoints` to compute the camera calibra
 #### 1. Provide an example of a distortion-corrected image.
 
 To demonstrate this step, I will describe how I apply the distortion correction to one of the test images like this one:
+![alt text][image21]
+
 ![alt text][image2]
 
 #### 2. Describe how (and identify where in your code) you used color transforms, gradients or other methods to create a thresholded binary image.  Provide an example of a binary image result.
@@ -117,8 +119,7 @@ I implemented this step in lines # through # in my code in `yet_another_file.py`
 ### Pipeline (video)
 
 #### 1. Provide a link to your final video output.  Your pipeline should perform reasonably well on the entire project video (wobbly lines are ok but no catastrophic failures that would cause the car to drive off the road!).
-
-Here's a [link to my video result](./project_video.mp4)
+Here's a [link to my video result](./project_video_processed.mp4)
 
 ---
 
